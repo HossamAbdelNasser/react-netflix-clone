@@ -1,0 +1,111 @@
+.listItem {
+    width: 225px;
+    height: 120px;
+    background-color: #181818;
+    margin-left: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+
+    &:hover {
+        position: absolute;
+        z-index: 2;
+        top: -10px;
+        width: 325px;
+        height: 480px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    video {
+        width: fit-content;
+        height: 185px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+    .itemInfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+
+            .leftIcons {
+                margin: 10px;
+                padding-right: 10px;
+            }
+
+            .rightIcons {
+                margin: 10px;
+            }
+            
+            .circleBorder {
+                border: solid gray 2px;
+                border-radius: 50%;
+                padding: 5px;
+                margin: 5px;
+                font-size: 36px;
+            }
+
+        }
+    }
+
+    .itemInfoTop {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+
+        span {
+            margin-left: 10px;
+        }
+
+        .limit {
+            border: solid white 1px;
+            padding: 3px;
+        }
+    }
+
+    .desc {
+        font-size: 13px;
+        margin: 0 5px 5px 5px;
+    }
+
+    .genre {
+        font-size: 14px;
+        margin: 10px;
+        margin-right: 10px;
+        align-items: center;
+
+            .grayDot {
+                display: inline-block;
+                margin: 5px;
+                color: gray;
+                font-size: 40px;
+                align-items: center;
+            }
+        
+
+        
+    }
+}

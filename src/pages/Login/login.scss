@@ -1,0 +1,107 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    background-size: cover;
+    .logo {
+        width: 150px;
+        position: absolute;
+        top: 25px;
+        left: 50px;
+        z-index: 2;
+    }
+
+    .modal {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.8);
+        width: 30vw;
+        height: 80vh;
+        .form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 70%;
+            margin: 10px;
+            margin-left: 60px;
+            h1 {
+                margin: 20px 0 20px 0;
+            }
+            .input {
+                background-color: #333333;
+                color: white;
+                border-radius: 5px;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+
+            .btn {
+                color: white;
+                background-color: #E30913;
+                border-radius: 5px;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+            .after {
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+                    font-size: 14px;
+
+                    span {
+                        margin-bottom: 5px;
+
+                        input {
+
+                            margin-right: 5px;
+                        }
+                    }
+
+                    
+
+                    .facebook {
+                        display: flex;
+                        align-items: center;
+                        
+                        .facebookIcon{
+                            margin-right: 5px;
+                            color: #506C97;
+                            background: white;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .right {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+    .copyright {
+        font-size: 14px;
+        margin: 10px;
+        margin-left: 60px;
+    }
+}
