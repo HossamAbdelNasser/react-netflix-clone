@@ -1,0 +1,151 @@
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+  background-size: cover;
+}
+
+.login .logo {
+  width: 150px;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  z-index: 2;
+}
+
+.login .modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  width: 30vw;
+  height: 80vh;
+}
+
+.login .modal .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  margin: 10px;
+  margin-left: 60px;
+}
+
+.login .modal .form h1 {
+  margin: 20px 0 20px 0;
+}
+
+.login .modal .form .input {
+  background-color: #333333;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.login .modal .form .btn {
+  color: white;
+  background-color: #E30913;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.login .modal .form .after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login .modal .form .after .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #615b5b;
+}
+
+.login .modal .form .after .left span {
+  margin-bottom: 5px;
+}
+
+.login .modal .form .after .left span input {
+  margin-right: 5px;
+}
+
+.login .modal .form .after .left span a {
+  text-decoration: none;
+  color: white;
+}
+
+.login .modal .form .after .left .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .modal .form .after .left .facebook .facebookIcon {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.login .modal .form .after .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login .copyright {
+  font-size: 14px;
+  margin: 10px;
+  margin-left: 60px;
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,36 @@
+.watch {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.watch .back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  font-weight: bolder;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.watch .back .arrow {
+  border: solid white 1px;
+  border-radius: 50%;
+  font-size: 40px;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.watch .video {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=watch.css.map */
