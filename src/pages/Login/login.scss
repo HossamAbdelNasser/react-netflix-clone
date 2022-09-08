@@ -64,7 +64,7 @@
                     flex-direction: column;
                     margin-top: 10px;
                     font-size: 14px;
-
+                    color: #615b5b;
                     span {
                         margin-bottom: 5px;
 
@@ -72,20 +72,22 @@
 
                             margin-right: 5px;
                         }
-                    }
 
-                    
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
 
                     .facebook {
                         display: flex;
                         align-items: center;
-                        
                         .facebookIcon{
+                            box-sizing: border-box;
+                            padding: 0px;
                             margin-right: 5px;
-                            color: #506C97;
-                            background: white;
-                            cursor: pointer;
-                        }
+                            cursor: pointer;  
+                        background-color: white;                                        }
                     }
                 }
 
